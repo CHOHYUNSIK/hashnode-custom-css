@@ -16,12 +16,11 @@ h2 { letter-spacing: 1px; display: inline-block; position: relative; z-index: 2;
 h2:before { content: ''; display: block; height: 14px; width: 104%; background: #88e0bb; position: absolute; bottom: 1px; z-index: -1; left: -2%; }
 .dark h2:before { content: ''; display: block; height: 10px; width: 104%; background: #027565; position: absolute; bottom: 1px; z-index: -1; left: -2%; }
 
-strong { letter-spacing: 1px; display: inline-block; position: relative; z-index: 2; }
-strong:before { content: ''; display: block; height: 9px; width: 100%; background: #b9f033; position: absolute; bottom: 7px; z-index: -1; left: 0; }
-.dark strong:before { content: ''; display: block; height: 2px; width: 100%; background: #ced100; position: absolute; bottom: 5px; z-index: -1; left: 0; transform: rotate(179deg); }
+strong { letter-spacing: 1px; background: linear-gradient(to top, #b1e3c6 50%, transparent 50%); }
+.dark strong { letter-spacing: 1px; background: linear-gradient(to top, #617d6d 50%, transparent 50%); }
 
-.dark .prose a { color: #93b0ff; }
-
+.dark .prose a 
+{ color: #93b0ff; }
 .prose pre { color: #373737; background-color: #ffffff; }
 
 .hljs-params, .hljs-class .hljs-title { color: #166fc1; }
@@ -89,4 +88,8 @@ strong:before { content: ''; display: block; height: 9px; width: 100%; backgroun
 
 @media (min-width: 1600px) {
   .blog-author-card { padding-top: 1.5rem; }
+}
+
+* {
+    font-family: 'Jeju Gothic';
 }
