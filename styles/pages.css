@@ -33,3 +33,7 @@
 @media (min-width: 1600px) {
   .blog-author-card { padding-top: 1.5rem; }
 }
+
+* {
+    font-family: 'Jeju Gothic';
+}
