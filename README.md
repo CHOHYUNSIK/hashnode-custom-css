@@ -15,10 +15,10 @@ CSS template files can be accessed in `styles` folder. All you have to do is, co
 
 ## Demo
 
-Read about these CSS changes in detail on my [blog](https://slashism.com/how-i-added-sticky-header-and-custom-css-on-my-hashnode-blog).
+Read about these CSS changes in detail on my [blog](https://dalmudee.hashnode.dev/?source=top_nav_blog_home).
 
 All these custom changes are applied on the blog already so you can check it out.
 
 ## Author
 
-Pankaj Sanam
+forked by Pankaj Sanam
