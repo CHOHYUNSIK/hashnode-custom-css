@@ -78,7 +78,6 @@ strong:before { content: ''; display: block; height: 9px; width: 100%; backgroun
 @media (min-width: 1024px) {
   .blog-author-card { padding-top: 3rem; }
   .blog-header { position: fixed; width: 100%; background: #fff; }
-  .dark .blog-header { position: fixed; width: 100%; }
   .blog-header + div { padding-top: 8.4rem; }
 }
 
